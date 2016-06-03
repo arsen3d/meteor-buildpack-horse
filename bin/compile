@@ -120,7 +120,7 @@ fi
 
 
 echo "-----> npm config set production"
-npm config set production
+npm config set production=true
 echo "-----> meteor run --production"
 
 #
