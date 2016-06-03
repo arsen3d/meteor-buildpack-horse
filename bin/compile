@@ -121,6 +121,8 @@ fi
 
 echo "-----> npm config set production"
 npm config set production
+echo "-----> meteor run --production"
+
 #
 # Build the meteor app!
 #
