@@ -118,6 +118,9 @@ if test "$CUR_RELEASE" != "$APP_RELEASE" ; then
   fi
 fi
 
+
+echo "-----> npm config set production"
+npm config set production
 #
 # Build the meteor app!
 #
